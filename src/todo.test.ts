@@ -11,7 +11,7 @@ const anyTask = {
 }
 
 describe('ToDoList', () => {
-  describe('Testing add', () => {
+  describe('Testing add ', () => {
     test('should add a new task to the list', () => {
       const todoInstance = new ToDoList()
       todoInstance.add(anyTask)

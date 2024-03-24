@@ -25,7 +25,7 @@ export class ToDoList {
     )
     try {
       if (missingProperties.length > 0) {
-        return 'Missing properties in task object'
+        return 'Missing properties in task object '
       }
       this.tasks.push(task)
     } catch (error) {
