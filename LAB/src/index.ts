@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import readline from 'readline'
 import { promisify } from 'util'
-import { Task, ToDoList } from './TodoList'
+import { ToDoList } from './services/TodoList' 
 
 const reader = readline.createInterface({
   input: process.stdin,
@@ -32,7 +32,7 @@ async function addNewTask () {
 }
 
 async function startTodoList () {
-  const userChoise = await getUserInput('Digite 1 para adicionar uma tarefa ou 0 para poder sair: ')
+  const userChoise = await getUserInput('Digite 1 para adicionar uma tarefa ou 0 para sair: ')
 
   switch (userChoise) {
     case '0':
