@@ -1,4 +1,3 @@
-import { CalculatorAdapter } from "../adapters/CalculatorAdapter";
 import { Person } from "../models/Calc";
 import { CalculatorRepository } from "../repository/CalculatorRepository";
 import { CalculatorInt } from "./interface/Calculator"; 
@@ -17,3 +16,5 @@ export class Calculator implements CalculatorInt{
         }
       }
 }
+
+export { Person };
