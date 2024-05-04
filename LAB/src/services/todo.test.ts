@@ -69,7 +69,7 @@ describe('ToDoList', () => {
   })
 
   describe('getTasks', () => {
-    test('should itialize tasks with an empty array', () => {
+    test('should initialize tasks with an empty array', () => {
       const repositoryStub = makeRepositoryStub()
       jest.spyOn(repositoryStub, 'getAll').mockReturnValueOnce({
         success: [],

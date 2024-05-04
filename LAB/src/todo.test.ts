@@ -21,9 +21,7 @@ describe('ToDoList', () => {
 
     test('should add a valid tasks', () => {
       const todoInstance = new ToDoList()
-      const invalidValue: any = {
-        invalidField: 'invalidValue'
-      }
+      const invalidValue: any = {} // Correção aqui
       todoInstance.add(invalidValue)
       const tasks = todoInstance.getTasks()
       expect(tasks).toEqual([])

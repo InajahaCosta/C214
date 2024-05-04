@@ -1,6 +1,7 @@
+/* eslint-disable semi */
 import { Calculator } from './Calculator';
 import { CalculatorRepository } from '../repository/CalculatorRepository';
-import { Person } from "../models/Calc";
+import { Person } from;
 import test, { describe } from 'node:test';
 
 const makeRepositoryStub = (): CalculatorRepository => {
