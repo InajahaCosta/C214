@@ -1,6 +1,6 @@
 # C214
 
-![CI-CD](https://github.com/C214/ToDoList/actions/workflows/cicd.yml/badge.svg)
+![CI-CD](https://github.com/InajahaCosta/C214/actions/workflows/cicd.yml/badge.svg)
 
 ## Configuração e Instalação de Bibliotecas
 
